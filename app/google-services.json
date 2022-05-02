@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "300757878820",
+    "project_id": "photos-b909b",
+    "storage_bucket": "photos-b909b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300757878820:android:f6e7cb724de0bf9daeb0b1",
+        "android_client_info": {
+          "package_name": "com.fiore.photos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300757878820-pfgfiiuogu2hodn2gm1dd52g5tuqoekb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fiore.photos",
+            "certificate_hash": "34b919662f172d54b5d98341c904d2cbd1dcd7c9"
+          }
+        },
+        {
+          "client_id": "300757878820-6o4hcblo2s45dl3fdv191o6ad3pvdne1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyls8e_DQLqgCjkZGFrbnNK7P7Q3cZiGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300757878820-6o4hcblo2s45dl3fdv191o6ad3pvdne1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

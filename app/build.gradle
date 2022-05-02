@@ -1,0 +1,51 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+    id 'com.google.firebase.firebase-perf'
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.fiore.photos"
+        minSdk 21
+        targetSdk 32
+        versionCode rootProject.version_code
+        versionName rootProject.version_name
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures.dataBinding = true
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:' + firebase_bom_version)
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-storage-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation 'com.google.firebase:firebase-perf-ktx'
+
+    implementation 'androidx.core:core-ktx:' + core_ktx_version
+    implementation 'androidx.appcompat:appcompat:' + appcompat_version
+    implementation 'com.google.android.material:material:' + material_version
+}

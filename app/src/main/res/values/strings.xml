@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Photos</string>
+    <string name="welcome_back">Welcome\nBack</string>
+    <string name="unique_id">unique id</string>
+    <string name="code">code</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_account">Create account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="create_account_break">Create\nAccount</string>
+    <string name="back_to">Back to</string>
+    <string name="user_id_not_exist">User id does not exist</string>
+    <string name="use_this_unique_id_desc">Use this unique id to sign in later on</string>
+    <string name="invalid_unique_id">Invalid unique id</string>
+    <string name="invalid_code_entered">Invalid code entered, must be 4 digits.</string>
+    <string name="sign_up_successful">Sign up successful</string>
 </resources>

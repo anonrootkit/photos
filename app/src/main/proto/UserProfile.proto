@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "com.fiore.photos";
+option java_multiple_files = true;
+
+message UserProfile {
+    string unique_id = 1;
+    string name = 2;
+    string followers_count = 3;
+    string following_count = 4;
+    bool is_public_account = 5;
+}
